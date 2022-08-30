@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@algolia/autocomplete-core": "^1.7.1",
+    "@algolia/autocomplete-js": "^1.7.1",
+    "@algolia/autocomplete-theme-classic": "^1.7.1",
+    "@meilisearch/instant-meilisearch": "^0.8.1",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-instantsearch-dom": "^6.32.1",
+    "react-instantsearch-hooks-web": "^6.32.1"
   },
   "devDependencies": {
     "@types/node": "18.7.13",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
+    "@types/react-instantsearch-dom": "^6.12.3",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "typescript": "4.8.2"
